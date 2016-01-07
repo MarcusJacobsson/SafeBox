@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+    compileOptions.encoding = 'UTF-8'
+    defaultConfig {
+        applicationId 'com.marcusjacobsson.safebox'
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 2
+        versionName "1.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    applicationVariants.all { variant ->
+        variant.resValue "string", "versionName", variant.versionName
+    }
+    productFlavors {
+    }
+}
+
+repositories {
+    maven { url 'http://ksoap2-android.googlecode.com/svn/m2-repo' }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.google.code.ksoap2-android:ksoap2-android:3.1.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'commons-io:commons-io:2.0.1'
+}

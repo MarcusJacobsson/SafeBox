@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.marcusjacobsson.vault.widgets.CheckableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/checkable_background_sms"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/ll_lw_sms_msg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/tv_lw_sms_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_rounded_corners" />
+
+    </LinearLayout>
+
+</com.marcusjacobsson.vault.widgets.CheckableLayout>

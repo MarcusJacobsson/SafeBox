@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Security">
+
+        <EditTextPreference
+            android:key="@string/pref_backup_email_key"
+            android:title="@string/pref_backup_email_title" />
+
+        <PreferenceScreen android:title="@string/pref_break_in_title">
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_break_in_enabled_key"
+                android:title="@string/pref_break_in_enabled_title" />
+
+            <EditTextPreference
+                android:key="@string/pref_break_in_email_key"
+                android:summary="@string/pref_break_in_email_summary"
+                android:title="@string/pref_break_in_email_title" />
+
+            <ListPreference
+                android:defaultValue="3"
+                android:entries="@array/pref_break_in_nbr_of_attempts_entry_values"
+                android:entryValues="@array/pref_break_in_nbr_of_attempts_entry_values"
+                android:key="@string/pref_break_in_nbr_of_attempts_key"
+                android:title="@string/pref_break_in_nbr_of_attempts_title" />
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

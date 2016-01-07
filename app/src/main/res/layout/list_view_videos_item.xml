@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.marcusjacobsson.vault.widgets.CheckableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/checkable_background_video"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_lw_videos_thumbnail"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher_new" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_lw_videos_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_lw_videos_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00:00" />
+
+        <TextView
+            android:id="@+id/tv_lw_videos_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size" />
+    </LinearLayout>
+
+</com.marcusjacobsson.vault.widgets.CheckableLayout>

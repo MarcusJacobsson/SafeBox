@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainMenuActivity">
+
+    <item
+        android:id="@+id/action_choose_images_show"
+        android:orderInCategory="99"
+        android:title="@string/show"
+        app:showAsAction="withText|ifRoom" />
+
+    <item
+        android:icon="@mipmap/ic_action_accept"
+        android:id="@+id/action_choose_images_done"
+        android:orderInCategory="100"
+        android:title="@string/done"
+        app:showAsAction="withText|ifRoom" />
+
+</menu>

@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">SafeBox</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="preference_file_key">VaultSharedPreferences</string>
+    <string name="action_forgotten_password">Send password reset request</string>
+    <string name="done">Done</string>
+
+    <string name="login_hint">Please enter your password.</string>
+    <string name="login_hint2">Please re-enter your password.</string>
+    <string name="btnLogin1">1</string>
+    <string name="btnLogin2">2</string>
+    <string name="btnLogin3">3</string>
+    <string name="btnLogin4">4</string>
+    <string name="btnLogin5">5</string>
+    <string name="btnLogin6">6</string>
+    <string name="btnLogin7">7</string>
+    <string name="btnLogin8">8</string>
+    <string name="btnLogin9">9</string>
+    <string name="btnLogin0">0</string>
+
+    <string name="login_password_too_short">Please enter a password with at least 3 numbers.</string>
+    <string name="login_enter_password_again">Please enter your password again.</string>
+    <string name="login_password_mismatch">"The passwords didn't match. Please try again."</string>
+    <string name="login_wrong_password">The password you entered was wrong. Please try again.</string>
+
+    <string name="hash_progress_bar_message">Working&#8230;</string>
+
+    <string name="dialog_welcome_title">Welcome!</string>
+    <string name="dialog_welcome_message2">Since this is your first visit, you will be asked to choose a password.
+        This password will be used each time you open the app, so do not forget it!\n\nOh, and if you want to be sure that you can reset  your password,
+    please make sure that you register your email address under Settings.</string>
+
+    <string name="pref_backup_email_key">pref_backup_email</string>
+    <string name="pref_backup_email_title">Email for password reset</string>
+    <string name="pref_break_in_title">Anti Break-in</string>
+    <string name="pref_break_in_enabled_key">pref_break_in_enabled_key</string>
+    <string name="pref_break_in_enabled_title">Enable Anti Break-In</string>
+    <string name="pref_break_in_email_key">pref_break_in_email_key</string>
+    <string name="pref_break_in_email_title">Email for Anti Break-In</string>
+    <string name="pref_break_in_email_summary">An email will be sent if the number of attempts exceeds the limit.</string>
+    <string name="pref_break_in_nbr_of_attempts_key">pref_break_in_nbr_of_attempts_key</string>
+    <string name="pref_break_in_nbr_of_attempts_title">Number of attempts before sending email</string>
+
+    <string name="reset_password_send">Send</string>
+    <string name="reset_password_email_hint">Enter email address</string>
+    <string name="reset_password_note">Please note&#8230;</string>
+    <string name="reset_password_note_msg">"You must have entered a backup email in Settings for this function to work. An email will be sent to the address that you've earlier registered."</string>
+
+    <string name="add">Add to SafeBox</string>
+
+    <string name="could_not_move_images">Could not move photo(s)</string>
+    <string name="images_moved_to_private">photo(s) are now safe in your SafeBox</string>
+    <string name="images_moved_to_public">photo(s) are no longer stored in your SafeBox</string>
+    <string name="could_not_move_videos">Could not move video(s)</string>
+    <string name="videos_moved_to_private">video(s) are now safe in your SafeBox</string>
+    <string name="videos_moved_to_public">video(s) are no longer stored in your SafeBox</string>
+    <string name="could_not_move_sms">Could not move sms</string>
+    <string name="sms_moved_to_private">sms are now safe in your SafeBox</string>
+    <string name="sms_moved_to_public">are no longer stored in your SafeBox</string>
+
+    <string name="one_selected_image">1 selected photo</string>
+    <string name="selected_images">selected photos</string>
+    <string name="one_selected_video">1 selected video</string>
+    <string name="selected_videos">selected videos</string>
+    <string name="one_selected_sms">1 selected sms</string>
+    <string name="selected_sms">selected sms</string>
+
+    <string name="choose_photos">Choose Photos</string>
+    <string name="choose_videos">Choose Videos</string>
+    <string name="choose_sms">Choose Sms</string>
+    <string name="photo_vault">Photo SafeBox</string>
+    <string name="video_vault">Video SafeBox</string>
+    <string name="sms_vault">Sms SafeBox</string>
+    <string name="cloud_backup">Cloud Backup</string>
+
+    <string name="email_sent">Email sent, please check your inbox.</string>
+
+    <string name="action_enter_password_token">Enter password reset code</string>
+
+    <string name="enter_password_token">Enter password reset code</string>
+    <string name="reset_password">Reset password</string>
+
+    <string name="empty_token">Please enter your password reset code.</string>
+
+    <string name="password_reset_request_not_valid">The password reset code is no longer valid. Please request a new code.</string>
+
+    <string name="password_reset">Password reset. Please enter a new one.</string>
+
+    <string name="dialog_warning_sent_message">The maximum number of login attempts has been reached. An alert has been sent to the registered email.</string>
+    <string name="dialog_warning_sent_title">Warning</string>
+
+    <string name="dialog_about_title">About</string>
+
+    <string name="dialog_about_libraries">Libraries</string>
+    <string name="dialog_about_vault_depends">SafeBox depends on the following libraries:</string>
+    <string name="dialog_about_depends_picasso">- Picasso by Square</string>
+    <string name="dialog_about_depends_ksoap">- kSOAP2 by Simpligility Technologies</string>
+    <string name="dialog_about_author">Author</string>
+    <string name="dialog_about_author_name">Marcus Jacobsson</string>
+    <string name="dialog_about_author_email">marcus91jacobsson@gmail.com</string>
+    <string name="dialog_about_version">"SafeBox version "</string>
+
+    <string name="sign_in">Sign in</string>
+
+    <string name="dialog_no_internet_message">Please make sure that you are connected to the internet and try again.</string>
+    <string name="dialog_no_internet_title">No internet connection</string>
+
+    <string name="show">Show</string>
+
+    <string name="dialog_uninstall_warning_message">Before you add content to your SafeBox, keep in mind that any files that are stored will be REMOVED when you uninstall the app. Therefore, make sure that you clear your SafeBox before uninstalling.</string>
+    <string name="dialog_uninstall_warning_title">Warning</string>
+
+    <string name="sms_not_supported">Sorry, this phone is not supported by the SMS function</string>
+
+    <string name="sms_conversations">Sms conversations</string>
+</resources>
